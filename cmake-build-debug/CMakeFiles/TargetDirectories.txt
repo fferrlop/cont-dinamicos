@@ -1,0 +1,3 @@
+C:/Users/Francisco/CLionProjects/cont_dinamicos/cmake-build-debug/CMakeFiles/cont_dinamicos.dir
+C:/Users/Francisco/CLionProjects/cont_dinamicos/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Francisco/CLionProjects/cont_dinamicos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
