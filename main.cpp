@@ -40,6 +40,14 @@ std::cout << "Ejercicio 2: " << std::endl;
         pila.pop();
     }
 
+//Ejercicio 3
+
+std::cout << "------------------------------------------------------------------------------------ " << std::endl;
+std::cout << "Ejercicio 3: " << std::endl;
+
+    std::vector<int> numeros = {50, 20, 60, 10, 30, 40};
+    std::sort(numeros.begin(), numeros.end());
+
 
     return 0;
 }
