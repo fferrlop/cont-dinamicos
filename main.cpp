@@ -21,11 +21,11 @@ std::cout << "Ejercicio 1: " << std::endl;
         Vector.push_back(25);
         Vector.push_back(30);
 
-    std::cout << "Elementos del vector: " << std::endl;
-    for (std::vector<int>::iterator it = Vector.begin(); it != Vector.end(); ++it) {
-        std::cout << *it << " ";
-    }
-    std::cout << std::endl;
+            std::cout << "Elementos del vector: " << std::endl;
+            for (std::vector<int>::iterator it = Vector.begin(); it != Vector.end(); ++it) {
+                std::cout << *it << " ";
+            }
+            std::cout << std::endl;
 
 //Ejercicio 2
 
@@ -62,10 +62,16 @@ std::cout << "Ejercicio 4: " << std::endl;
 
     std::valarray<double> valores = {1.0, 2.0, 3.0, 4.0, 5.0};
 
-    std::cout << "Suma: " << valores.sum() << std::endl;
-    std::cout << "Media: " << valores.sum() / valores.size() << std::endl;
+        std::cout << "Suma: " << valores.sum() << std::endl;
+        std::cout << "Media: " << valores.sum() / valores.size() << std::endl;
 
-    valores += 5.0;
+        valores += 5.0;
+
+            std::cout << "Valores + 5.0 = ";
+            for(double valor : valores) {
+                std::cout << valor << " ";
+            }
+            std::cout << std::endl;
 
     return 0;
 }
