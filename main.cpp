@@ -73,5 +73,33 @@ std::cout << "Ejercicio 4: " << std::endl;
             }
             std::cout << std::endl;
 
+//Ejercicio 5
+
+    std::cout << "------------------------------------------------------------------------------------ " << std::endl;
+    std::cout << "Ejercicio 5: " << std::endl;
+
+    auto cuadrado = [](int num) { return num * num; };
+
+    std::cout << "Cuadrado de 5: " << cuadrado(5) << std::endl;
+
+    std::vector<int> numeros2 = {1, 2, 3, 4, 5};
+
+    std::for_each(numeros2.begin(), numeros2.end(), [](int num) {
+        std::cout << num << std::endl;
+    });
+
+        std::shared_ptr<int> ptr(new int(10));
+        std::cout << "Valor apuntado por ptr: " << *ptr << std::endl;
+
+//Ejercicio 6
+
+std::cout << "------------------------------------------------------------------------------------ " << std::endl;
+std::cout << "Ejercicio 6: " << std::endl;
+
+
+
     return 0;
 }
+
+
+
