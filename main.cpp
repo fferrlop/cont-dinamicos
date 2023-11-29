@@ -32,6 +32,9 @@ std::cout << "Ejercicio 1: " << std::endl;
 std::cout << "------------------------------------------------------------------------------------ " << std::endl;
 std::cout << "Ejercicio 2: " << std::endl;
 
+    std::list<float> lista = {1.1, 2.2, 3.3, 4.4, 5.5};
+    std::stack<float, std::list<float>> pila(lista);
+
 
     return 0;
 }
