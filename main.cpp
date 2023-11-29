@@ -8,6 +8,11 @@
 
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+//Ejercicio 1:
+    std::vector<int> Vector;
+
+    Vector.push_back(5);
+
     return 0;
 }
