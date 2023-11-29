@@ -52,6 +52,20 @@ std::cout << "Ejercicio 3: " << std::endl;
         std::cout << num << std::endl;
     }
 
+        int maxNum = *std::max_element(numeros.begin(), numeros.end());
+        std::cout << "Numero maximo: " << maxNum << std::endl;
+
+//Ejercicio 4
+
+std::cout << "------------------------------------------------------------------------------------ " << std::endl;
+std::cout << "Ejercicio 4: " << std::endl;
+
+    std::valarray<double> valores = {1.0, 2.0, 3.0, 4.0, 5.0};
+
+    std::cout << "Suma: " << valores.sum() << std::endl;
+    std::cout << "Media: " << valores.sum() / valores.size() << std::endl;
+
+    valores += 5.0;
 
     return 0;
 }
