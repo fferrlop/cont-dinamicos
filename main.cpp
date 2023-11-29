@@ -27,5 +27,11 @@ std::cout << "Ejercicio 1: " << std::endl;
     }
     std::cout << std::endl;
 
+//Ejercicio 2
+
+std::cout << "------------------------------------------------------------------------------------ " << std::endl;
+std::cout << "Ejercicio 2: " << std::endl;
+
+
     return 0;
 }
